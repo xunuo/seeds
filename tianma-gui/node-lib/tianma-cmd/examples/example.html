@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<title>Tianma.Cmd Test</title>
+		<script>
+			var TianmaCmd=require('../src/tianma-cmd');
+			
+			cmd=new TianmaCmd('d:/workspace/tianma/work/');
+			
+			function doStart(){
+				runCmd('start');
+			}
+			
+			function doStop(){
+				runCmd('stop');
+			}
+			
+			function doRestart(){
+				runCmd('restart');
+			}
+			
+			function runCmd(fn){
+				cmd[fn](function(error,stdout,stderr){
+					log(fn+':'+stdout);
+				});
+			}
+			
+			var logs=[];
+			function log(str){
+				logs.push(str);
+				document.getElementById('console').value=logs.join('\n');
+			}
+		</script>
+	</head>
+	<body>
+		<button onclick="doStart()">start</button>
+		<button onclick="doStop()">stop</button>
+		<button onclick="doRestart()">restart</button>
+		
+		<br/>
+		<textarea id="console" style="width:60%;height:100px;"></textarea>
+	</body>
+</html>

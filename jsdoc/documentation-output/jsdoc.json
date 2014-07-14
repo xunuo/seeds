@@ -1,0 +1,177 @@
+[
+  {
+    "comment": "/**\n * Creates a new Person.\n * @class\n */",
+    "meta": {
+      "range": [
+        43,
+        64
+      ],
+      "filename": "test.js",
+      "lineno": 5,
+      "path": "/Users/snow/Desktop/jsdoc/js",
+      "code": {
+        "id": "astnode100000001",
+        "name": "Person",
+        "type": "FunctionDeclaration",
+        "node": {
+          "type": "FunctionDeclaration",
+          "id": {
+            "type": "Identifier",
+            "name": "Person",
+            "range": [
+              52,
+              58
+            ],
+            "loc": {
+              "start": {
+                "line": 5,
+                "column": 9
+              },
+              "end": {
+                "line": 5,
+                "column": 15
+              }
+            }
+          },
+          "params": [],
+          "defaults": [],
+          "body": {
+            "type": "BlockStatement",
+            "body": [],
+            "range": [
+              61,
+              64
+            ],
+            "loc": {
+              "start": {
+                "line": 5,
+                "column": 18
+              },
+              "end": {
+                "line": 6,
+                "column": 1
+              }
+            }
+          },
+          "rest": null,
+          "generator": false,
+          "expression": false,
+          "range": [
+            43,
+            64
+          ],
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 0
+            },
+            "end": {
+              "line": 6,
+              "column": 1
+            }
+          },
+          "leadingComments": [
+            {
+              "type": "Block",
+              "value": "*\n * Creates a new Person.\n * @class\n ",
+              "range": [
+                0,
+                42
+              ],
+              "loc": {
+                "start": {
+                  "line": 1,
+                  "column": 0
+                },
+                "end": {
+                  "line": 4,
+                  "column": 3
+                }
+              },
+              "raw": "/**\n * Creates a new Person.\n * @class\n */"
+            }
+          ]
+        },
+        "paramnames": []
+      }
+    },
+    "description": "Creates a new Person.",
+    "kind": "class",
+    "name": "Person",
+    "longname": "Person",
+    "scope": "global"
+  },
+  {
+    "comment": "",
+    "meta": {
+      "range": [
+        70,
+        86
+      ],
+      "filename": "test.js",
+      "lineno": 8,
+      "path": "/Users/snow/Desktop/jsdoc/js",
+      "code": {
+        "id": "astnode100000005",
+        "name": "p",
+        "type": "NewExpression",
+        "node": {
+          "type": "NewExpression",
+          "callee": {
+            "type": "Identifier",
+            "name": "Person",
+            "range": [
+              78,
+              84
+            ],
+            "loc": {
+              "start": {
+                "line": 8,
+                "column": 12
+              },
+              "end": {
+                "line": 8,
+                "column": 18
+              }
+            }
+          },
+          "arguments": [],
+          "range": [
+            74,
+            86
+          ],
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 8
+            },
+            "end": {
+              "line": 8,
+              "column": 20
+            }
+          }
+        }
+      }
+    },
+    "undocumented": true,
+    "name": "p",
+    "kind": "member",
+    "longname": "p",
+    "scope": "global"
+  },
+  {
+    "name": "",
+    "kind": "package",
+    "longname": "package:",
+    "description": "",
+    "version": "",
+    "licenses": [],
+    "tags": {
+      "allowUnknownTags": true
+    },
+    "plugins": false,
+    "files": [
+      "/Users/snow/Desktop/jsdoc/js/test.js"
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+1
+00:00:00,000 --> 00:00:04,970
+Hi! I'm Amit. Learning how to develop Android apps is very exciting.
+
+2
+00:00:04,970 --> 00:00:08,250
+We assume that you have little or no programming experience.
+
+3
+00:00:08,250 --> 00:00:13,330
+You'll start with the very basics and move to more intermediate and advanced topics.
+
+4
+00:00:14,230 --> 00:00:20,020
+You will get off to a quick start by building a simple Crystal Ball app which will teach you how to use Eclipse,
+
+5
+00:00:20,020 --> 00:00:23,090
+the recommended tool to create android apps,
+
+6
+00:00:23,520 --> 00:00:28,800
+and you will also learn how to use Java, the programming language to write android apps.
+
+7
+00:00:28,800 --> 00:00:34,240
+Finally, you will learn how to publish your app to Google Play and the Amazon app store.
+
+8
+00:00:34,560 --> 00:00:42,100
+Next, we'll increase the complexity by building an app that downloads and displays blogposts from the Treehouse blog.
+
+9
+00:00:42,100 --> 00:00:46,470
+This project will teach you the design pattern known as model view controller,
+
+10
+00:00:46,470 --> 00:00:50,360
+how to display a list of data, and how to show a webpage.
+
+11
+00:00:50,360 --> 00:00:55,050
+You will also learn how to share text with your friends right from within the app.
+
+12
+00:00:56,060 --> 00:01:03,400
+By the end, you will be comfortable building a fairly complex android app as well as know where to go to continue with your learning.
+
+13
+00:01:03,400 --> 00:01:05,910
+So join us and good luck!
+
+14
+00:01:08,200 --> 00:01:08,220
+[Treehouse™]
+

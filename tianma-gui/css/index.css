@@ -1,0 +1,18 @@
+/* 让窗体可拖动 */
+body{
+    -webkit-user-select:none;
+    -webkit-app-region:drag;
+}
+
+#close{
+	position: absolute;
+	right:10px;
+	top:10px;
+	background: #66C7EB;
+	padding:5px;
+	cursor: pointer;
+}
+
+.btn-start { margin-left: 100px;}
+.btn-start:hover, .btn-restart:hover { cursor: pointer;}
+.btn-restart { margin-left: 50px;}>>>>>>> .r102851
