@@ -10,4 +10,8 @@ seeds
 nodejs site:
 =====
 
+global
+===
 npm install forever -g
+npm install nodemon -g
+npm install nodemon -g
